@@ -7,10 +7,12 @@ public class ClubDeportivo {
 	private ArrayList<Entrenador> entrenador = new ArrayList<Entrenador>();
 
 	public ArrayList getEquipoDeporte() {
+
 		return this.equipoDeporte;
 	}
 
 	public void setEquipoDeporte(ArrayList equipoDeporte) {
+
 		this.equipoDeporte = equipoDeporte;
 	}
 }

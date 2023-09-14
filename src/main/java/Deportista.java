@@ -6,6 +6,15 @@ public class Deportista {
 	private String deportePractica;
 	private String rol;
 
+	public Deportista(String nombre, String apellido, String direccionCorreo, String numeroContacto, String deportePractica, String rol) {
+		this.nombre = nombre;
+		this.apellido = apellido;
+		this.direccionCorreo = direccionCorreo;
+		this.numeroContacto = numeroContacto;
+		this.deportePractica = deportePractica;
+		this.rol = rol;
+	}
+
 	public String getNombre() {
 		return this.nombre;
 	}

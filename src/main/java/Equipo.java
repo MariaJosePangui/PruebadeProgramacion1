@@ -5,6 +5,12 @@ public class Equipo {
 	private ArrayList hPartidosJugados;
 	private ArrayList<PartidosJugados> partidosJugados = new ArrayList<PartidosJugados>();
 
+	public Equipo(ArrayList jugadores, ArrayList hPartidosJugados, ArrayList<PartidosJugados> partidosJugados) {
+		this.jugadores = jugadores;
+		this.hPartidosJugados = hPartidosJugados;
+		this.partidosJugados = partidosJugados;
+	}
+
 	public ArrayList getJugadores() {
 		return this.jugadores;
 	}

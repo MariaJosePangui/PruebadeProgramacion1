@@ -3,6 +3,12 @@ public class Entrenador {
 	private String especialidadDeportiva;
 	private Deporte deporte;
 
+	public Entrenador(int experiencia, String especialidadDeportiva, Deporte deporte) {
+		this.experiencia = experiencia;
+		this.especialidadDeportiva = especialidadDeportiva;
+		this.deporte = deporte;
+	}
+
 	public int getExperiencia() {
 		return this.experiencia;
 	}

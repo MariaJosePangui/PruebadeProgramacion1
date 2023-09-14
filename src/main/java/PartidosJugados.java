@@ -4,6 +4,12 @@ public class PartidosJugados {
 	private String lugar;
 	private Equipo equipo;
 
+	public PartidosJugados(String resultado, String fecha, String lugar) {
+		this.resultado = resultado;
+		this.fecha = fecha;
+		this.lugar = lugar;
+	}
+
 	public String getResultado() {
 		return this.resultado;
 	}
